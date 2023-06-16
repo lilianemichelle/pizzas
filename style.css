@@ -5,6 +5,7 @@
       padding: 0;
       background-color: #670f0f;
       color: #ffffff;
+      text-decoration: none;
     }
 
     .foto{
@@ -90,6 +91,7 @@
 
     main {
         padding: 20px;
+        padding-left: 60px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -122,5 +124,109 @@
 
     .pizza p {
       margin-top: 5px;
+    }
+
+    .navicon1{
+      position: absolute;
+      top: 4%;
+      right: 215px;
+      z-index: 3;
+      filter: invert(100%);
+    }
+
+    .navicon2{
+      position: absolute;
+      top: 4%;
+      right: 450px;
+      z-index: 3;
+      filter: invert(100%);      
+    }
+
+    .coiso{
+      display: flex;
+      flex-direction: row;
+      margin-top: 100px;
+      margin-left: 50px;
+      
+    }
+
+    .div1{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navtext1{
+      position: absolute;
+      top: 20px;
+      font-size: 23px;
+      right: 317px;
+      z-index: 2;
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    .navtext2{
+      position: absolute;
+      top: 3%;
+      font-size: 23px;
+      right: 70px;
+      z-index: 2;
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    a{
+      text-decoration: none;
+    }
+
+    .footeritems1{
+      position: relative;
+      top: 1140px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 245px;
+      transform: translateX(-50px);
+    }
+
+    .footeritems2{
+      position: relative;
+      top: 1140px;
+      display: flex;
+      flex-direction: row;
+      width: 250px;
+      transform: translateX(30px);
+    }
+
+    .footeritems3{
+      position: relative;
+      top: 1140px;
+      display: flex;
+      flex-direction: row;
+      width: 250px; 
+      transform: translateX(70px);
+
+    }
+
+    .divfooter{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex: row;
+      justify-content: space-evenly;
+      font-weight: bolder;
+      padding-left: 80PX;  
+    }
+
+    .instafoto{
+      transform: translateY(12px);
+      margin-right: 10px;
+      filter: invert(100%);
+    }
+
+    #iconfooterzinho{
+      filter: invert(100%);
+      height: 40px;
+      margin-right: 10px;
+      transform: translateY(7px);
     }
 
